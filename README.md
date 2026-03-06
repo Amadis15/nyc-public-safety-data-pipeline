@@ -57,7 +57,6 @@ The Python ETL script performs the following tasks:
 4. Loads records into a BigQuery table
 5. Enables Power BI to query the warehouse for reporting
 
-This architecture follows a modern analytics workflow where data is ingested from external APIs, stored in a cloud data warehouse, and visualized using BI tools.
 
 ---
 
@@ -75,7 +74,7 @@ The Power BI dashboard provides an interactive view of NYC public safety inciden
 
 ## Key Insights
 
-Example insights from the analysis include:
+Insights from the analysis include:
 
 • Brooklyn reports the highest number of incidents, followed by Manhattan.
 
@@ -85,4 +84,11 @@ Example insights from the analysis include:
 
 ---
 
-## Repository Structure
+## Future Improvements
+
+Potential enhancements include:
+
+- Automating the ETL pipeline with scheduled jobs
+- Implementing incremental API ingestion
+
+
