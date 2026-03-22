@@ -6,7 +6,7 @@ from google.cloud import bigquery
 # This is the API and we are going to intialize it to the BASE_URL variable
 BASE_URL = "https://data.cityofnewyork.us/resource/n2zq-pubd.json"
 
-# ALL BigQuery Information for
+# BigQuery Information Project Information/Details
 Project_ID = "real-time-public-safety"
 Dataset = "Main_Dataset"
 Table = "raw_calls_for_service"
